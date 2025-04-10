@@ -356,8 +356,8 @@ const Dashboard = () => {
           <div className="flex items-center">
             <div className="relative mr-2">
               <img 
-                src="/DIB NazrahOne Logo.png" 
-                alt="DIB NazrahOne Logo" 
+                src="/DIB_NazrahOne_Logo.png" 
+                alt="DIB_NazrahOne_Logo" 
                 className="h-12 w-12"
               />
             </div>
