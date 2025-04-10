@@ -356,9 +356,18 @@ const Dashboard = () => {
           <div className="flex items-center">
             <div className="relative mr-2">
               <img 
-                src="/DIB_NazrahOne_Logo.png" 
-                alt="DIB_NazrahOne_Logo" 
-                className="h-12 w-12"
+				src="dib-nazrah-one/eye.png" 
+				alt="eye" 
+				className="h-24 w-24 object-contain"
+				onError={(e) => {
+				console.error('Image Load Diagnostic:', {
+				fullUrl: e.target.src,
+				alt: e.target.alt,
+				networkStatus: navigator.onLine ? 'Online' : 'Offline'
+				});
+				e.target.style.border = '3px solid red';
+				e.target.style.backgroundColor = 'pink';
+  }}
               />
             </div>
             <div>
