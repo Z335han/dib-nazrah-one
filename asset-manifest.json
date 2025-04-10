@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dib-nazrah-one/static/css/main.5a0093b2.css",
-    "main.js": "/dib-nazrah-one/static/js/main.daaefe8c.js",
+    "main.js": "/dib-nazrah-one/static/js/main.b46e2c97.js",
     "index.html": "/dib-nazrah-one/index.html",
     "main.5a0093b2.css.map": "/dib-nazrah-one/static/css/main.5a0093b2.css.map",
-    "main.daaefe8c.js.map": "/dib-nazrah-one/static/js/main.daaefe8c.js.map"
+    "main.b46e2c97.js.map": "/dib-nazrah-one/static/js/main.b46e2c97.js.map"
   },
   "entrypoints": [
     "static/css/main.5a0093b2.css",
-    "static/js/main.daaefe8c.js"
+    "static/js/main.b46e2c97.js"
   ]
 }
