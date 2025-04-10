@@ -356,7 +356,7 @@ const Dashboard = () => {
           <div className="flex items-center">
             <div className="relative mr-2">
               <img 
-				src="dib-nazrah-one/eye.png" 
+				src="/eye.png" 
 				alt="eye" 
 				className="h-24 w-24 object-contain"
 				onError={(e) => {
